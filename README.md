@@ -1,5 +1,5 @@
 # Scripted-Movie-Colors
-A Node-RED flow for scripting movie scene color changes using Home Assistant.
+A Node-RED flow for lighting color changes during movie scenes using Home Assistant.
 
 
 # Installation
