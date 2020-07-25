@@ -56,3 +56,9 @@ That's it.  The next time you watch the movie, your color bulbs should change to
  1. Use the color effect sparingly.  If you change the colors too often during a movie it will lose impact and just become distracting.  Choose color moments carefully and less often for maximum effect.
    
  2. You can easily remove or manually edit the .txt files if needed.
+ 
+ 3. Attach actions to the no file found node to run lighting scripts for movies without custom color data.
+ 
+ 4. You could modify the functions to add another value for brightness if you wanted for added effect.
+ 
+ 
