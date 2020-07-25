@@ -1,6 +1,8 @@
 # Scripted-Movie-Colors
 A Node-RED flow for lighting color changes during movie scenes using Home Assistant.
 
+https://www.youtube.com/watch?v=3KvEv_khuUM
+
 
 # Installation
 1. Open the **MovieColors.json** file in a text editor and replace "kodi" with the actual name of your kodi media player.
