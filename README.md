@@ -7,20 +7,20 @@ A Node-RED flow for lighting color changes during movie scenes using Home Assist
 2. Import the **MovieColors.json** flow into Node-RED. 
 3. Edit your configuration.yaml in HomeAssistant
 
-  Under media_player:  Find the kodi media player you wish to use and add scan_interval: 3
+  Under **media_player:**  Find the kodi media player you wish to use and add scan_interval: 3
   
      - platform: kodi
        host: 192.168.0.162
-       name: office fs kodi
-       **scan_interval: 3**
+       name: office fs kodi       
+       scan_interval: 3
        
-  Under light:  Create a light group named Movie Color Group, this should contain any color light entities you want to script.
+  Under **light:**  Create a new light group named Movie Color Group, this should contain any color light entities you want to control.
   
      - platform: group
        name: Movie Color Group
        entities:
-        - light.mybulb1
-        - light.mybulb2
+        - light.mybulb
+        - light.led_strip
  
  
  **Optional:** 
@@ -53,6 +53,6 @@ That's it.  The next time you watch the movie, your color bulbs should change to
 
 # Suggestions
 
- 1. Use the color effect sparingly.  If you change the colors too often during a movie it will lose impact and just become distracting.  Choose color moments carefully.
+ 1. Use the color effect sparingly.  If you change the colors too often during a movie it will lose impact and just become distracting.  Choose color moments carefully and less often for maximum effect.
    
  2. You can easily remove or manually edit the .txt files if needed.
