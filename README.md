@@ -25,7 +25,7 @@ A Node-RED flow for lighting color changes during movie scenes using Home Assist
  
  **Optional:** 
  
- Create a folder named MovieColor in your node-red folder.  Copy sample movie .txt files to this folder if you wish. The name will need to match the name of your movie exactly, including upper/lowercase letters.
+ Create a folder named MovieColor in your node-red folder.  Copy sample movie .txt files to this folder if you wish. The file name is case-sensitive and will need to match the name of your movie exactly.
  
  Turn on fade effect for your color lights.  If you have Tasmotized color bulbs or LED controllers, turn on fade by going to the console and entering: **Fade 1**, and **Speed 11**.  This will enhance the color change effect, and also 
  make any timing issues much less noticeable.
