@@ -10,8 +10,8 @@ A Node-RED flow for lighting color changes during movie scenes using Home Assist
   Under **media_player:**  Find the kodi media player you wish to use and add scan_interval: 3
   
      - platform: kodi
-       host: 192.168.0.162
-       name: office fs kodi       
+       host: 192.168.0.123
+       name: my kodi player       
        scan_interval: 3
        
   Under **light:**  Create a new light group named Movie Color Group, this should contain any color light entities you want to control.
