@@ -1,3 +1,11 @@
+# IMPORTANT Note:
+Home Assistant broke kodi position reporting in 0.115.
+ 
+while playing movies now, home assistant will NOT update the current position anymore, it just keeps reporting the same position over and over, so this will not work until they fix current position reporting.
+
+-------------------
+
+
 # Scripted-Movie-Colors
 A Node-RED flow for lighting color changes during movie scenes using Home Assistant.
 
