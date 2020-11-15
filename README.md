@@ -1,7 +1,7 @@
 # IMPORTANT Note:
-**Home Assistant broke kodi position reporting in 0.115.**
+**Home Assistant broke Kodi position reporting in 0.115.**
  
-While playing movies, home assistant will NO LONGER provide the correct media position, that has been broken.   This of course breaks this script unless you implement the workaround below.
+While playing movies in Kodi, Home Assistant will NO LONGER provide the correct media position.   Obviously, that breaks this script unless you implement the workaround below.
 
 #Workaround: 
 A direct request to KODI at your player URL will get the current media position, since we don't know if or when HA will fix the kodi integration to do this properly. 
